@@ -5,7 +5,7 @@ os:
   - linux
 
 dist: trusty
-dotnet: 2.0.0
+dotnet: 2.1.300
 
 branches:
   only:
