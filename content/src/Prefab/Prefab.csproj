@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Authors>(author)</Authors>
+    <Description>A thing that does something</Description>
+    <Company></Company>
+    <PackageLicenseUrl>https://github.com/(owner)/Prefab/raw/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/(owner)/Prefab</PackageProjectUrl>
+    <PackageTags></PackageTags>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+</Project>

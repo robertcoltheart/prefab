@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Prefab</id>
+    <version>$version$</version>
+    <description>A dotnet template for a bare-bones C# solution.</description>
+    <authors>Robert Coltheart</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  
+  <files>
+    <file src="content/**" exclude=".vs;bin;obj" />
+  </files>
+</package>
