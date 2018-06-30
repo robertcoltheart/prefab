@@ -35,6 +35,14 @@ Task("Versioning")
     .IsDependentOn("Clean")
     .Does(() =>
 {
+    if (!BuildSystem.IsLocalBuild)
+    {
+        GitVersion(new GitVersionSettings
+        {
+            OutputType = GitVersionOutput.BuildServer
+        });
+    }
+
     var result = GitVersion();
 
     version = result.NuGetVersion;
