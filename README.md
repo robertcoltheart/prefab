@@ -1,4 +1,7 @@
-# Prefab [![Travis](https://img.shields.io/travis/robertcoltheart/Prefab.svg)](https://travis-ci.org/robertcoltheart/Prefab) [![AppVeyor](https://img.shields.io/appveyor/ci/robertcoltheart/Prefab.svg)](https://ci.appveyor.com/project/robertcoltheart/Prefab)
+# Prefab
+
+[![Build](https://img.shields.io/github/workflow/status/robertcoltheart/Prefab/build?style=for-the-badge)](https://github.com/robertcoltheart/Prefab/actions?query=workflow:build) [![License](https://img.shields.io/github/license/robertcoltheart/Prefab?style=for-the-badge)](https://github.com/robertcoltheart/Prefab/blob/master/LICENSE)
+
 A `dotnet` template for creating a bare-bones C# solution.
 
 ## Prerequisites

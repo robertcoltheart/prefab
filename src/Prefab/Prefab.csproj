@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <PackageType>Template</PackageType>
+    <IncludeContentInPack>true</IncludeContentInPack>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <ContentTargetFolders>content</ContentTargetFolders>
+    <NoDefaultExcludes>true</NoDefaultExcludes>
+    <NoWarn>NU5128,NU5111,NU5110</NoWarn>
+
+    <Authors>Robert Coltheart</Authors>
+    <Description>A dotnet template for a bare-bones C# solution.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="templates/**/*" Exclude="templates/**/bin/**;templates/**/obj/**;templates/**/.vs/**;templates/**/artifacts/**" />
+    <Compile Remove="**/*" />
+  </ItemGroup>
+
+</Project>
