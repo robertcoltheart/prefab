@@ -21,9 +21,10 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           path: artifacts/*.nupkg
-      - name: Upload release binaries
-        uses: alexellis/upload-assets@0.2.3
+      - uses: NBTX/upload-release-assets@v1
+        if: github.event_name == 'release'
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          asset_paths: '["artifacts/*.nupkg"]'
+          targets: 'artifacts/*.nupkg'
+          upload_url: ${{ github.event.release.upload_url }}
