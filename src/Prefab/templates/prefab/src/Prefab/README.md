@@ -1,6 +1,4 @@
-# Prefab 
-
-[![Docs](https://img.shields.io/badge/docs-wiki-blue.svg?style=for-the-badge)](https://github.com/(owner)/Prefab/wiki) [![NuGet](https://img.shields.io/nuget/v/Prefab?style=for-the-badge)](https://www.nuget.org/packages/Prefab) [![Discussions](https://img.shields.io/badge/DISCUSS-ON%20GITHUB-yellow?style=for-the-badge)](https://github.com/(owner)/Prefab/discussions) [![License](https://img.shields.io/github/license/(owner)/Prefab?style=for-the-badge)](https://github.com/(owner)/Prefab/blob/master/LICENSE)
+﻿## About
 
 A thing that does something.
 
@@ -21,6 +19,3 @@ Discuss with us on [Discussions](https://github.com/(owner)/Prefab/discussions),
 
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
-
-## License
-Prefab is released under the [MIT License](LICENSE)
