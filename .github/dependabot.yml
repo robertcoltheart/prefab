@@ -9,3 +9,13 @@ updates:
     directory: "/build"
     schedule:
       interval: "weekly"
+
+  - package-ecosystem: "nuget"
+    directory: "/src/Prefab/templates/prefab"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "nuget"
+    directory: "/src/Prefab/templates/prefab/build"
+    schedule:
+      interval: "weekly"
