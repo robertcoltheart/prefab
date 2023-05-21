@@ -11,11 +11,21 @@ updates:
       interval: "weekly"
 
   - package-ecosystem: "nuget"
+    directory: "/.config"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "nuget"
     directory: "/src/Prefab/templates/prefab"
     schedule:
       interval: "weekly"
 
   - package-ecosystem: "nuget"
     directory: "/src/Prefab/templates/prefab/build"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "nuget"
+    directory: "/src/Prefab/templates/prefab/.config"
     schedule:
       interval: "weekly"
