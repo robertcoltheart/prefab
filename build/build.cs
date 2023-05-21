@@ -40,7 +40,7 @@ Target("test", DependsOn("build"), () =>
 
 Target("package", DependsOn("build", "test"), () =>
 {
-    Run("dotnet", $"pack --configuration Release --no-restore --no-build --property PackageOutputPath=../../artifacts --property Version={version.SemVer}");
+    Run("dotnet", $"pack --configuration Release --no-restore --no-build --output artifacts --property Version={version.SemVer}");
 });
 
 Target("publish", DependsOn("package"), () =>
