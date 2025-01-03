@@ -4,8 +4,10 @@
   "classifications": ["Solution"],
   "identity": "Prefab",
   "name": "Prefab",
+  "description": "Bare-bones C# solution template",
   "shortName": "prefab",
   "sourceName": "Prefab",
+  "preferNameDirectory": true,
   "tags": {
     "language": "C#",
     "type": "project"
